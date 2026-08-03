@@ -1,57 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="100%">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
       * { font-family: 'Press Start 2P', monospace; }
       .bg { fill: #0a0818; }
-      .scanline { fill: rgba(123, 47, 190, 0.04); animation: scan 10s linear infinite; }
-      .main-text { fill: #b07cf0; font-size: 80px; text-anchor: middle; }
-      .sub-text { fill: #7b2fbe; font-size: 16px; text-anchor: middle; }
+      .text { fill: #b07cf0; font-size: 72px; text-anchor: middle; }
       .cursor { fill: #b07cf0; animation: blink 1s step-end infinite; }
-      .dot { fill: #b07cf0; }
-      .prompt { fill: #b07cf0; font-size: 18px; }
       @keyframes blink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
-      @keyframes scan {
-        0% { transform: translateY(-100%); }
-        100% { transform: translateY(100%); }
-      }
     </style>
   </defs>
 
-  <!-- 纯黑紫背景 -->
-  <rect class="bg" width="800" height="500" />
-
-  <!-- 动态扫描线 -->
-  <rect class="scanline" x="0" y="0" width="800" height="6" />
-
-  <!-- 左上角像素小图标（类似 Arch 标志风格） -->
-  <rect x="30" y="30" width="12" height="12" fill="#b07cf0" />
-  <rect x="46" y="30" width="12" height="12" fill="#7b2fbe" />
-  <rect x="30" y="46" width="12" height="12" fill="#7b2fbe" />
-  <rect x="46" y="46" width="12" height="12" fill="#b07cf0" />
-
-  <!-- 左上角终端提示信息 -->
-  <text x="70" y="50" fill="#b07cf0" font-size="14px">[HALFPOINT] $ _</text>
-
-  <!-- 中间巨型 HALFPOINT 文字 -->
-  <text class="main-text" x="400" y="240">HALFPOINT</text>
-
-  <!-- 闪烁光标（位于文字右侧） -->
-  <rect class="cursor" x="700" y="150" width="36" height="48" />
-
-  <!-- 底部状态 -->
-  <text class="sub-text" x="400" y="380">version 1.0 · ready</text>
-
-  <!-- 底部 $ 提示符 -->
-  <text class="prompt" x="340" y="440">$</text>
-  <rect class="cursor" x="365" y="428" width="20" height="20" />
-
-  <!-- 像素装饰小方块（分散点缀） -->
-  <rect x="120" y="420" width="8" height="8" fill="#7b2fbe" />
-  <rect x="660" y="420" width="8" height="8" fill="#b07cf0" />
-  <rect x="380" y="460" width="8" height="8" fill="#7b2fbe" />
-  <rect x="420" y="460" width="8" height="8" fill="#b07cf0" />
+  <rect class="bg" width="600" height="200" />
+  <text class="text" x="300" y="130">HALFPOINT</text>
+  <rect class="cursor" x="560" y="70" width="28" height="48" />
 </svg>
