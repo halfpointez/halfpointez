@@ -2,18 +2,49 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-      * { font-family: 'Press Start 2P', monospace; }
+      * {
+        font-family: 'Press Start 2P', 'Courier New', monospace;
+        font-smooth: never;
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: grayscale;
+      }
       .bg { fill: #0a0818; }
-      .text { fill: #b07cf0; font-size: 72px; text-anchor: middle; }
-      .cursor { fill: #b07cf0; animation: blink 1s step-end infinite; }
+      .text {
+        fill: #b07cf0;
+        font-size: 72px;
+        text-anchor: middle;
+        shape-rendering: crispEdges;
+        text-rendering: optimizeSpeed;
+      }
+      .cursor {
+        fill: #b07cf0;
+        animation: blink 1s step-end infinite;
+        shape-rendering: crispEdges;
+      }
+      .scanline {
+        fill: rgba(123, 47, 190, 0.08);
+        animation: scan 6s linear infinite;
+      }
       @keyframes blink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
+      @keyframes scan {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(100%); }
+      }
     </style>
   </defs>
 
+  <!-- 背景 -->
   <rect class="bg" width="600" height="200" />
+
+  <!-- 扫描线（自上而下循环） -->
+  <rect class="scanline" x="0" y="0" width="600" height="8" />
+
+  <!-- 主文字 -->
   <text class="text" x="300" y="130">HALFPOINT</text>
+
+  <!-- 闪烁光标（位于文字右侧） -->
   <rect class="cursor" x="560" y="70" width="28" height="48" />
 </svg>
