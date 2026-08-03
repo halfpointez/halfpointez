@@ -1,85 +1,68 @@
-<!-- 顶部动态横幅 -->
+<!-- 顶部 CRT 横幅 -->
 <p align="center">
-  <img src="./pic/arch-banner.svg" alt="Y2K Arch Banner" width="100%"/>
+  <img src="./pic/terminal-crt.svg" alt="CRT Terminal" width="100%"/>
 </p>
 
 ---
 
-<!-- 第一块：终端式系统信息（去掉花哨，改成类似 /etc/passwd 和 neofetch 精简版） -->
-<pre style="background: #0A0515; color: #A78BFA; padding: 25px; border: 2px solid #8B5CF6; border-radius: 6px; font-family: 'Courier New', monospace; line-height: 2; overflow-x: auto; box-shadow: 0 0 40px rgba(139, 92, 246, 0.08);">
+<!-- 整个主页封装在 CRT 风格的 <pre> 块中，模拟一个连续的 TTY 会话 -->
+<pre style="background: #0b1119; color: #b0d4e8; padding: 30px; border: 2px solid #00ffcc; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 15px; line-height: 1.9; overflow-x: auto; box-shadow: inset 0 0 60px rgba(0, 255, 204, 0.03);">
 
-┌──────────────────────────────────────────────────────────────────────────┐
-│  >_ cat /etc/passwd | grep $USER                                       │
-│  ──────────────────────────────────────────────────────────────────       │
-│  NAME       : <span style="color: #EC4899;">YOUR_NAME</span>                                          │
-│  UID        : 1001 (GEEK)                                              │
-│  ROLE       : <span style="color: #EC4899;">Full-stack Developer / Y2K Archivist</span>                │
-│  MOTTO      : "Keep it simple, keep it dark."                          │
-│                                                                        │
-│  >_ neofetch --stdout                                                 │
-│  ──────────────────────────────────────────────────────────────────       │
-│  ● LANG     : Python, Go, Rust, TypeScript                            │
-│  ● FRAMEWORK: React, Next.js, Django, Axum                            │
-│  ● EDITOR   : Neovim (Moonfly theme)                                  │
-│  ● TERM     : Alacritty (Violet Flux)                                 │
-│                                                                        │
-│  >_ curl -s https://api.contact/v1                                    │
-│  ──────────────────────────────────────────────────────────────────       │
-│  ● MAIL     : <span style="color: #EC4899;">YOUR_EMAIL</span>                                     │
-│  ● WEB      : <span style="color: #EC4899;">https://your-blog.dev</span>                               │
-│  ● GITHUB   : <span style="color: #EC4899;">https://github.com/YOUR_USERNAME</span>                   │
-│                                                                        │
-│  [user@y2k_arch ~]$ <span style="color: #EC4899;">_</span>█                                       │
-└──────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│  <<< WELCOME TO /dev/tty1 >>>                                            │
+│  Linux crt-terminal 6.9.2-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux│
+│                                                                          │
+│  >_ whoami                                                              │
+│  <span style="color: #00ffcc;">YOUR_NAME</span>                                           │
+│                                                                          │
+│  >_ cat ~/.profile                                                      │
+│  ──────────────────────────────────────────────────────────────────         │
+│  export ROLE="Full-stack Developer"                                      │
+│  export TOOLS="Neovim | Tmux | Zellij | Systemd"                        │
+│  export LANG="Python | Go | Rust | TypeScript"                          │
+│  export FRAMEWORK="React | Next.js | Django | Axum"                    │
+│  export MOTTO="Keep it simple, keep it sharp."                          │
+│                                                                          │
+│  >_ curl -s https://api.github.com/users/YOUR_USERNAME | jq '.bio'     │
+│  <span style="color: #00ffcc;">"Building robust systems and clean interfaces."</span>                   │
+│                                                                          │
+│  >_ ls -la /projects                                                    │
+│  ──────────────────────────────────────────────────────────────────         │
+│  drwxr-xr-x  dotfiles     ->  Neovim + Hyprland (CRT themed)           │
+│  drwxr-xr-x  rust-tui     ->  TUI dashboard in Rust                    │
+│  drwxr-xr-x  go-proxy     ->  Lightweight reverse proxy                │
+│  drwxr-xr-x  web-archive  ->  Wayback Machine scraper                  │
+│                                                                          │
+│  >_ echo $CONTACT                                                       │
+│  <span style="color: #00ffcc;">YOUR_EMAIL</span>  |  https://github.com/YOUR_USERNAME                 │
+│                                                                          │
+│  [user@crt ~]$ <span style="color: #00ffcc;">_</span>█                                                   │
+└────────────────────────────────────────────────────────────────────────────┘
 </pre>
 
 ---
 
-<!-- 第二块：GitHub 统计卡片（暗色适配，边框改为紫粉） -->
+<!-- 第二块：GitHub 统计（完全适配 CRT 暗色，边框青绿） -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0A0515&title_color=EC4899&icon_color=8B5CF6&text_color=A78BFA&border_color=8B5CF6&count_private=true" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0A0515&title_color=EC4899&text_color=A78BFA&border_color=8B5CF6" alt="Top Langs"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0b1119&title_color=00ffcc&icon_color=00ffcc&text_color=b0d4e8&border_color=00ffcc&count_private=true" alt="Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0b1119&title_color=00ffcc&text_color=b0d4e8&border_color=00ffcc" alt="Top Langs"/>
 </p>
 
 ---
 
-<!-- 第三块：项目展示（风格类似 /var/log 日志，简洁硬朗） -->
-<pre style="background: #0A0515; color: #7C6A9E; padding: 20px; border: 2px solid #8B5CF6; border-radius: 6px; font-family: 'Courier New', monospace; line-height: 2.2; overflow-x: auto;">
+<!-- 第三块：底部 CRT 关机/重启签名（很淡的极客仪式感） -->
+<pre style="background: #0b1119; color: #3a5a6a; padding: 15px; border: 1px solid #1a3340; border-radius: 4px; font-family: 'Courier New', monospace; font-size: 13px; text-align: center;">
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  >_ ls -la /projects                                                       │
-├────────────────┬─────────────────────────────────────┬──────────────────────┤
-│  MODULE         │  DESC                              │  LINK               │
-├────────────────┼─────────────────────────────────────┼──────────────────────┤
-│  dotfiles       │  Neovim + Hyprland (Y2K themed)   │  <a href="#" style="color: #EC4899; text-decoration: none;">→</a>              │
-│  rust-tui       │  TUI dashboard in Rust             │  <a href="#" style="color: #EC4899; text-decoration: none;">→</a>              │
-│  go-proxy       │  Lightweight reverse proxy         │  <a href="#" style="color: #EC4899; text-decoration: none;">→</a>              │
-│  web-archive    │  Wayback Machine scraper           │  <a href="#" style="color: #EC4899; text-decoration: none;">→</a>              │
-└────────────────┴─────────────────────────────────────┴──────────────────────┘
+  SYSTEM: ONLINE  |  UPTIME: ∞  |  CRT_REFRESH: 60Hz  |  SCAN: ACTIVE
 
-[user@y2k_arch ~]$ <span style="color: #EC4899;">echo $RETRO_FUTURISM</span>
->_ system_ready.pid
-[user@y2k_arch ~]$ █
+  [ Press CTRL+D to logout , or CTRL+ALT+DEL to reboot ]
+
+  <span style="color: #00ffcc; opacity: 0.6;">~ $ █</span>
 </pre>
 
----
-
-<!-- 第四块：底部签名（去掉颜文字，换成千禧年亚文化符号） -->
+<!-- 底部徽章（保持极简，去掉 emoji） -->
 <p align="center">
-  <span style="color: #4B3A6B; font-family: 'Courier New', monospace; font-size: 13px;">
-    ── ⋆⋅☆⋅⋆ ──  Y2K_ARCH  ── ⋆⋅☆⋅⋆ ──
-  </span><br>
-  <span style="color: #8B5CF6; font-family: 'Courier New', monospace; font-size: 15px; font-weight: bold;">
-    ::  RETRO FUTURISM  ::  NEO-GEEK  ::
-  </span><br>
-  <span style="color: #6B5B8D; font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 2px;">
-    // 1024 bytes of pure aesthetic
-  </span>
-</p>
-
-<!-- 底部状态徽章（去掉花哨的 emoji，只留简洁字眼） -->
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-BOOTING-brightgreen?style=for-the-badge&logo=archlinux&logoColor=white&color=8B5CF6&labelColor=0A0515" alt="Status"/>
-  <img src="https://img.shields.io/badge/STYLE-Y2K_GLITCH-ff69b4?style=for-the-badge&logo=vercel&logoColor=white&color=EC4899&labelColor=0A0515" alt="Y2K"/>
-  <img src="https://img.shields.io/badge/VIBE-NEON_DARK-9b59b6?style=for-the-badge&logo=matrix&logoColor=white&color=6B5B8D&labelColor=0A0515" alt="Vibe"/>
+  <img src="https://img.shields.io/badge/TERMINAL-CRT-brightgreen?style=for-the-badge&logo=gnometerminal&logoColor=white&color=00ffcc&labelColor=0b1119" alt="CRT"/>
+  <img src="https://img.shields.io/badge/ARCH-LINUX-1793d1?style=for-the-badge&logo=archlinux&logoColor=white&color=00ffcc&labelColor=0b1119" alt="Arch"/>
+  <img src="https://img.shields.io/badge/NEON-DARK-9b59b6?style=for-the-badge&logo=matrix&logoColor=white&color=00aaff&labelColor=0b1119" alt="Neon"/>
 </p>
