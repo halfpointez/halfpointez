@@ -6,7 +6,7 @@
 <!-- 🚀 SYSTEM_STATUS :: ABOUT_ME -->
 <h2>
   <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Travel%20and%20places/Rocket.png" width="28" height="28" align="center" />
-  <font color="#FF007F">SYSTEM_STATUS :: ABOUT_ME</font>
+  <font color="#FF007F">ABOUT_ME</font>
 </h2>
 
 <p>
@@ -20,7 +20,7 @@
 <!-- 🏆 SYSTEM_CAPABILITIES :: ALGORITHM -->
 <h2>
   <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Activities/Trophy.png" width="28" height="28" align="center" />
-  <font color="#FF007F">SYSTEM_CAPABILITIES :: ALGORITHM</font>
+  <font color="#FF007F">ALGORITHM</font>
 </h2>
 
 <p>
@@ -64,45 +64,10 @@
 
 ---
 
-<!-- 💼 SYSTEM_LOGS :: EXPERIENCE -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Briefcase.png" width="28" height="28" align="center" />
-  <font color="#FF007F">SYSTEM_LOGS :: EXPERIENCE</font>
-</h2>
-
-<p>
-  <code><b>&gt; EXEC_SUMMARY:</b></code> Practical engineering and academic research execution logs.
-</p>
-
-<table border="0" style="border: none; width: 100%;">
-  <tr>
-    <td valign="middle" width="310">
-      <img src="https://img.shields.io/badge/Kingdee_Software-Engineering_Intern-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
-    </td>
-    <td valign="middle">
-      🏢 <b><font color="#E0AAFF">Software Engineering Intern</font></b> <code>[Kingdee Software / Jiangmen]</code><br/>
-      • Developed a smart factory scheduling system (APS) powered by Google CP-SAT solver.<br/>
-      • Modeled complex industrial constraints to optimize production line sequencing &amp; resource utilization.
-    </td>
-  </tr>
-  <tr>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/AI_Research-SCI_Q1_Paper-7B2CBF?style=for-the-badge&logo=flask&logoColor=white&labelColor=1A0B2E" />
-    </td>
-    <td valign="middle">
-      🧪 <b><font color="#E0AAFF">Undergraduate Stage</font></b> <br/>
-      • Conducted AI model training, fine-tuning, and high-performance dataset cleaning &amp; preprocessing.<br/>
-      • Published a research paper in a <b><font color="#FF007F">CAS / JCR Division 1 (Q1) SCI Journal</font></b>.
-    </td>
-  </tr>
-</table>
-
----
-
 <!-- ⚙️ SYSTEM_STACK :: TECH_CAPABILITIES -->
 <h2>
   <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Gear.png" width="28" height="28" align="center" />
-  <font color="#FF007F">SYSTEM_STACK :: TECH_CAPABILITIES</font>
+  <font color="#FF007F">TECH_STACK</font>
 </h2>
 
 <p align="center">
@@ -134,25 +99,59 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Competitive_Programming-FF007F?style=for-the-badge&logo=codeforces&logoColor=white" />
 </p>
+
+---
+
+<!-- 💼 SYSTEM_LOGS :: EXPERIENCE -->
+<h2>
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Briefcase.png" width="28" height="28" align="center" />
+  <font color="#FF007F">EXPERIENCE</font>
+</h2>
+
+<p>
+  <code><b>&gt; EXEC_SUMMARY:</b></code> Practical engineering and academic research execution logs.
+</p>
+
+<table border="0" style="border: none; width: 100%;">
+  <tr>
+    <td valign="middle" width="310">
+      <img src="https://img.shields.io/badge/Kingdee_Software-Engineering_Intern-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
+    </td>
+    <td valign="middle">
+      🏢 <b><font color="#E0AAFF">Software Engineering Intern</font></b> <code>[Kingdee Software / Jiangmen]</code><br/>
+      • Developed a smart factory scheduling system (APS) powered by Google CP-SAT solver.<br/>
+      • Modeled complex industrial constraints to optimize production line sequencing &amp; resource utilization.
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/AI_Research-SCI_Q1_Paper-7B2CBF?style=for-the-badge&logo=flask&logoColor=white&labelColor=1A0B2E" />
+    </td>
+    <td valign="middle">
+      🧪 <b><font color="#E0AAFF">Undergraduate Stage</font></b> <br/>
+      • Conducted AI model training, fine-tuning, and high-performance dataset cleaning &amp; preprocessing.<br/>
+      • Published a research paper in a <b><font color="#FF007F">CAS / JCR Division 1 (Q1) SCI Journal</font></b>.
+    </td>
+  </tr>
+</table>
+
+---
+
 <!-- 📬 TRANSMISSION_CHANNELS :: CONNECT -->
 <h2>
-  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Incoming%20Envelope.png" width="28" height="28" align="center" />
-  <font color="#FF007F">TRANSMISSION_CHANNELS :: CONNECT</font>
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Link.png" width="28" height="28" align="center" style="vertical-align: middle" />
+  <font color="#FF007F">CONNECT</font>
 </h2>
+
+
 
 <p align="center">
   <!-- Gmail -->
-  <a href="mailto:halfpointez@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-halfpointez%40gmail.com-FF007F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B2E" />
-  </a>
+  <a href="mailto:halfpointez@gmail.com" style="text-decoration: none;"><img src="https://img.shields.io/badge/Gmail-halfpointez%40gmail.com-FF007F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B2E" /></a>
   &nbsp;&nbsp;&nbsp;
   <!-- QQ -->
-  <a href="tencent://message/?uin=3159584912">
-    <img src="https://img.shields.io/badge/QQ-3159584912-7B2CBF?style=for-the-badge&logo=qq&logoColor=white&labelColor=1A0B2E" />
-  </a>
+  <a href="tencent://message/?uin=3159584912" style="text-decoration: none;"><img src="https://img.shields.io/badge/QQ-3159584912-7B2CBF?style=for-the-badge&logo=qq&logoColor=white&labelColor=1A0B2E" /></a>
   &nbsp;&nbsp;&nbsp;
   <!-- GitHub -->
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-E0AAFF?style=for-the-badge&logo=github&logoColor=white&labelColor=1A0B2E" />
-  </a>
-</p> 
+  <a href="https://github.com/YOUR_GITHUB_USERNAME" style="text-decoration: none;"><img src="https://img.shields.io/badge/GitHub-E0AAFF?style=for-the-badge&logo=github&logoColor=white&labelColor=1A0B2E" /></a>
+</p>
