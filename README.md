@@ -1,23 +1,34 @@
-<!-- 头部 CRT 风格主页展示 -->
+<!-- 1. 顶部微光问候语与 Logo -->
 <p align="center">
-  <img src="pic/logo-scan.svg?v=3" alt="HALFPOINT - Millennian Arch CRT Console" width="100%" />
-</p>
-
-<!-- 技术栈与统计数据 (静态部分，可根据需要调整) -->
-<h3 align="center">System_Info // Tech Stack</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Python-7B2CBF?style=for-the-badge&logo=python&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Bash-9D4EDD?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/MATLAB-E0AAFF?style=for-the-badge&logo=mathworks&logoColor=1A0B2E&labelColor=1A0B2E" />
+  <sub><code><font color="#FF007F">✦</font> <font color="#E0AAFF">Hi ! There is Halfpoint</font> <font color="#FF007F">✦</font></code></sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/VCS-Git-7B2CBF?style=for-the-badge&logo=git&logoColor=white&labelColor=1A0B2E" />
+  <img src="pic/logo-scan.svg?v=3" alt="HALFPOINT Logo" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Terminal_Visits&color=ff007f&style=flat-square" alt="Visits" />
+  <code>[ SYSTEM_BOOT: SUCCESS ] :: [ KERNEL: Y2K-CYBER-ARCH ] :: [ STATUS: ONLINE ]</code>
 </p>
+
+<!-- 2. 核心能力一句话概要 (Core Pitch) -->
+<blockquote align="center">
+  <code><b>&gt; QUICK_SUMMARY:</b> CS undergrad specializing in <b>High-Performance C++</b>, <b>Algorithmic Optimization</b>, and <b>LLM Logic Research</b>. Proven record in national/regional competitive programming.</code>
+</blockquote>
+
+---
+
+<!-- 3. 成就与荣誉 (Achievements) -->
+```txt
+┌─── [ 🏆 COMPETITIVE PROGRAMMING & HONORS ] ─────────────────────────┐
+│                                                                     │
+│  [+] ICPC Regional Contests    :: Regional Contestant               │
+│                                   (Nanjing & Xi'an Stations)        │
+│                                                                     │
+│  [+] Lanqiao Cup (C/C++)       :: National 2nd Prize                │
+│                                   (National Finals)                 │
+│                                                                     │
+│  [+] CCF CSP Certification     :: Score: 280 / 500                  │
+│                                   (Top Tier Algorithmic Competency) │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
