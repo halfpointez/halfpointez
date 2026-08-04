@@ -54,7 +54,7 @@
   </tr>
   <tr>
     <td valign="middle">
-      <img src="https://img.shields.io/badge/CCF_CSP-Score:_280_/_\500-E0AAFF?style=for-the-badge&logo=leetcode&logoColor=1A0B2E&labelColor=1A0B2E" />
+      <img src="https://img.shields.io/badge/CCF_CSP-Score:_280_/_\500-E0AAFF?style=for-the-badge&labelColor=1A0B2E" />
     </td>
     <td valign="middle">
       ⚡ <b><font color="#E0AAFF">CCF CSP Certification:</font></b> Score: <font color="#FF007F"><b>280 / 500</b></font>
