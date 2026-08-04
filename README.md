@@ -33,7 +33,7 @@
 
 <p>
   <code><b>&gt; QUICK_SUMMARY:</b></code> 在役 ICPC 选手 
-  <abbr title="其实现在还是很菜，还没能拿到 ICPC 奖牌，会继续努力的！"><sub><font color="#888888">[💬 悬停查看真实状态]</font></sub></abbr>
+  <img src="pic/spoiler.svg" align="center" />
 </p>
 
 <!-- 紧凑型高质感成就网格 -->
