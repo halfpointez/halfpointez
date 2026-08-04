@@ -13,7 +13,7 @@
 
 <!-- 🚀 SYSTEM_STATUS :: ABOUT_ME -->
 <h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" height="28" align="center" />
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Travel%20and%20places/Rocket.png" width="28" height="28" align="center" />
   <font color="#FF007F">SYSTEM_STATUS :: ABOUT_ME</font>
 </h2>
 
@@ -74,7 +74,7 @@
 
 <!-- 💼 SYSTEM_LOGS :: EXPERIENCE -->
 <h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28" height="28" align="center" />
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Briefcase.png" width="28" height="28" align="center" />
   <font color="#FF007F">SYSTEM_LOGS :: EXPERIENCE</font>
 </h2>
 
@@ -109,39 +109,41 @@
 
 <!-- ⚙️ SYSTEM_STACK :: TECH_CAPABILITIES -->
 <h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="28" height="28" align="center" />
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Gear.png" width="28" height="28" align="center" />
   <font color="#FF007F">SYSTEM_STACK :: TECH_CAPABILITIES</font>
 </h2>
 
 <p align="center">
   <code><b>[ LANGUAGES ]</b></code><br/>
-  <img src="https://img.shields.io/badge/C++-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Python-7B2CBF?style=for-the-badge&logo=python&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/MATLAB-E0AAFF?style=for-the-badge&logo=mathworks&logoColor=1A0B2E&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Bash-9D4EDD?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/TypeScript-7B2CBF?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Python-9D4EDD?style=for-the-badge&logo=python&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Java-B5179E?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1A0B2E" />
 </p>
 
 <p align="center">
   <code><b>[ SYSTEMS &amp; INFRA ]</b></code><br/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white&labelColor=1A0B2E" />
   <img src="https://img.shields.io/badge/Linux_Kernel-FF007F?style=for-the-badge&logo=linux&logoColor=white&labelColor=1A0B2E" />
   <img src="https://img.shields.io/badge/Git-7B2CBF?style=for-the-badge&logo=git&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Neovim-C77DFF?style=for-the-badge&logo=neovim&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Conda-38A169?style=for-the-badge&logo=anaconda&logoColor=white&labelColor=1A0B2E" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1A0B2E" />
 </p>
 
 <p align="center">
-  <code><b>[ DOMAINS &amp; INTERESTS ]</b></code><br/>
-  <img src="https://img.shields.io/badge/Competitive_Programming-FF007F?style=flat-square&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/LLM_Logic_%26_Reasoning-7B2CBF?style=flat-square&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/High_Performance_Computing-9D4EDD?style=flat-square&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Y2K_%26_Cyber_Aesthetics-E0AAFF?style=flat-square&color=1A0B2E&labelColor=1A0B2E" />
+  <code><b>[ FRONTEND &amp; DOMAINS ]</b></code><br/>
+  <img src="https://img.shields.io/badge/HTML5-2D2D2D?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/CSS3-2D2D2D?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/JavaScript-2D2D2D?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Competitive_Programming-FF007F?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Y2K_%26_Cyber_Aesthetics-7B2CBF?style=for-the-badge&logo=matrix&logoColor=E0AAFF&labelColor=1A0B2E" />
 </p>
-
-
 <!-- 📬 TRANSMISSION_CHANNELS :: CONNECT -->
 <h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Communication/Envelope.png" width="28" height="28" align="center" />
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Communication/Envelope.png" width="28" height="28" align="center" />
   <font color="#FF007F">TRANSMISSION_CHANNELS :: CONNECT</font>
 </h2>
 
