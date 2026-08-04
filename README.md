@@ -27,10 +27,9 @@
   <code><b>&gt; QUICK_SUMMARY:</b></code> Active ICPC contestant
 </p>
 
-<details>
-  <summary><code><font color="#FF007F">[ ▒▒▒ CLICK_TO_DECRYPT_REALITY ▒▒▒ ]</font></code></summary>
-  <p><sub><font color="#E0AAFF"><b>💬 ACTUAL_STATUS:</b> Working hard for a medal... QAQ</font></sub></p>
-</details>
+<abbr title="💬 Working hard for a medal... QAQ">
+  <code><font color="#FF007F">[ ▒▒▒ HOVER_TO_REVEAL ▒▒▒ ]</font></code>
+</abbr>
 
 <br/>
 
