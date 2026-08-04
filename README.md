@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <code>[ SYSTEM_BOOT: SUCCESS ] :: [ KERNEL: Y2K-CYBER-ARCH ] :: [ STATUS: ONLINE ]</code>
+  <code>[ Developer ] :: [ Hard Gamer ] :: [ STATUS: ONLINE ]</code>
 </p>
 
 <!-- 🚀 SYSTEM_STATUS :: ABOUT_ME -->
@@ -32,7 +32,7 @@
 </h2>
 
 <p>
-  <code><b>&gt; QUICK_SUMMARY:</b></code> 在役 ICPC 选手
+  <code><b>&gt; QUICK_SUMMARY:</b></code> Active ICPC contestant
 </p>
 
 <details>
@@ -115,46 +115,52 @@
 
 <p align="center">
   <code><b>[ LANGUAGES ]</b></code><br/>
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/TypeScript-7B2CBF?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Python-9D4EDD?style=for-the-badge&logo=python&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Java-B5179E?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-FF007F?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-7B2CBF?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-9D4EDD?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-B5179E?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
 
 <p align="center">
   <code><b>[ SYSTEMS &amp; INFRA ]</b></code><br/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Linux_Kernel-FF007F?style=for-the-badge&logo=linux&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Git-7B2CBF?style=for-the-badge&logo=git&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Conda-38A169?style=for-the-badge&logo=anaconda&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FF007F?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-7B2CBF?style=for-the-badge&logo=git&logoColor=white" />
+  <!-- VS Code 使用 Base64 内联 SVG 解决 Shields.io 缺失问题 -->
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMy4xNSAyLjU4N0wxOC4yMS4yMWExLjQ5NCAxLjQ5NCAwIDAgMC0xLjcwNS4yOWwtOS40NiA4LjYzLTQuMTItMy4xMmEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wODJMLjMwMiA3LjIzOGEuOTk5Ljk5OSAwIDAgMC4wMDUgMS40NDJsMy40NCAzLjMyLTMuNDQgMy4zMmEuOTk5Ljk5OSAwIDAgMC0uMDA1IDEuNDQybDEuMzQ3IDEuMTQ2YS45OTkuOTk5IDAgMCAwIDEuMjc2LjA4Mmw4LjEyLTMuMTIgOS40NiA4LjYzYTEuNDk0IDEuNDk0IDAgMCAwIDEuNzA1LjI5bDQuOTQtMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjk0YTEuNSAxLjUgMCAwIDAtLjg1LTEuMzUzem0tNS4xNSAxNS4zOTNsLTYuMy01Ljk4IDYuMy01Ljk4djExLjk2eiIvPjwvc3ZnPg==" />
+  <img src="https://img.shields.io/badge/Conda-38A169?style=for-the-badge&logo=anaconda&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
 <p align="center">
   <code><b>[ FRONTEND &amp; DOMAINS ]</b></code><br/>
-  <img src="https://img.shields.io/badge/HTML5-2D2D2D?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/CSS3-2D2D2D?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/JavaScript-2D2D2D?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Competitive_Programming-FF007F?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1A0B2E" />
-  <img src="https://img.shields.io/badge/Y2K_%26_Cyber_Aesthetics-7B2CBF?style=for-the-badge&logo=matrix&logoColor=E0AAFF&labelColor=1A0B2E" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <!-- CSS 改用正确的 slug logo=css -->
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Competitive_Programming-FF007F?style=for-the-badge&logo=codeforces&logoColor=white" />
 </p>
 <!-- 📬 TRANSMISSION_CHANNELS :: CONNECT -->
 <h2>
-  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Communication/Envelope.png" width="28" height="28" align="center" />
+  <img src="https://cdn.jsdelivr.net/gh/Tarikul-Islam-Anik/Animated-Fluent-Emojis@master/Emojis/Objects/Incoming%20Envelope.png" width="28" height="28" align="center" />
   <font color="#FF007F">TRANSMISSION_CHANNELS :: CONNECT</font>
 </h2>
 
 <p align="center">
-  <a href="mailto:your_email@example.com">
-    <img src="https://img.shields.io/badge/Email-FF007F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B2E" />
+  <!-- Gmail -->
+  <a href="mailto:halfpointez@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-halfpointez%40gmail.com-FF007F?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B2E" />
   </a>
-  <a href="https://blog.yourdomain.com">
-    <img src="https://img.shields.io/badge/Blog-7B2CBF?style=for-the-badge&logo=rss&logoColor=white&labelColor=1A0B2E" />
+  &nbsp;&nbsp;&nbsp;
+  <!-- QQ -->
+  <a href="tencent://message/?uin=3159584912">
+    <img src="https://img.shields.io/badge/QQ-3159584912-7B2CBF?style=for-the-badge&logo=qq&logoColor=white&labelColor=1A0B2E" />
   </a>
+  &nbsp;&nbsp;&nbsp;
+  <!-- GitHub -->
   <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-E0AAFF?style=for-the-badge&logo=github&logoColor=1A0B2E&labelColor=1A0B2E" />
+    <img src="https://img.shields.io/badge/GitHub-E0AAFF?style=for-the-badge&logo=github&logoColor=white&labelColor=1A0B2E" />
   </a>
 </p>
