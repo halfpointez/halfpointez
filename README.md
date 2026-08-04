@@ -1,14 +1,6 @@
-<!-- 1. 顶部微光问候语与 Logo -->
+<!-- 顶部赛博全宽 Header（内含背景大图、问候语、ASCII 动态扫描 Logo 与状态栏） -->
 <p align="center">
-  <sub><code><font color="#FF007F">✦</font> <font color="#E0AAFF">Hi ! There is Halfpoint</font> <font color="#FF007F">✦</font></code></sub>
-</p>
-
-<p align="center">
-  <img src="pic/logo-scan.svg?v=3" alt="HALFPOINT Logo" width="100%" />
-</p>
-
-<p align="center">
-  <code>[ Developer ] :: [ Hard Gamer ] :: [ STATUS: ONLINE ]</code>
+  <img src="pic/banner.svg?v=1" alt="HALFPOINT Header Banner" width="100%" />
 </p>
 
 <!-- 🚀 SYSTEM_STATUS :: ABOUT_ME -->
