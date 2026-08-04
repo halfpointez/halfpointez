@@ -57,10 +57,10 @@
 
   <!-- 图层 1：背景大图（可按需更换图片 URL 或本地相对路径） -->
   <image 
-    href="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" 
-    width="800" 
-    height="320" 
-    preserveAspectRatio="xMidYMid slice" 
+  href="wallhaven-z8766g_1920x1080.png" 
+  width="800" 
+  height="320" 
+  preserveAspectRatio="xMidYMid slice" 
   />
 
   <!-- 图层 2：暗色半透明叠加层 -->
