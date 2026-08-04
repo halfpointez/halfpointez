@@ -1,10 +1,3 @@
-<workflow-state>
-Status: no_task
-No active task. First classify the current turn and ask for task-creation consent before creating any Trellis task.
-Simple conversation / small task: ask only whether this turn should create a Trellis task. If the user says no, skip Trellis for this session.
-Complex task: ask the user if you can create a Trellis task and enter the planning phase. If the user says no, explain, clarify scope, or suggest a smaller split.
-</workflow-state>
-
 <!-- 1. 顶部微光问候语与 Logo -->
 <p align="center">
   <sub><code><font color="#FF007F">✦</font> <font color="#E0AAFF">Hi ! There is Halfpoint</font> <font color="#FF007F">✦</font></code></sub>
