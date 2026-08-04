@@ -1,19 +1,61 @@
 <svg width="100%" height="320" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 1. 暗色遮罩渐变：保证 Logo 和文字清晰度 -->
+    <!-- 1. 背景暗色遮罩渐变 -->
     <linearGradient id="bg-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1A0B2E" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#1A0B2E" stop-opacity="0.88" />
+      <stop offset="0%" stop-color="#1A0B2E" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1A0B2E" stop-opacity="0.9" />
     </linearGradient>
 
-    <!-- 2. 发光粉紫边框 -->
+    <!-- 2. 外框霓虹渐变 -->
     <linearGradient id="cyber-border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FF007F" />
       <stop offset="100%" stop-color="#7B2CBF" />
     </linearGradient>
+
+    <!-- 3. Logo 动态扫描线渐变（完美保留你原 logo-scan.svg 的动画） -->
+    <linearGradient id="scanline" x1="-100%" y1="0" x2="0%" y2="0">
+      <stop stop-color="#7b2cbf" offset="0%"/>
+      <stop stop-color="#ff007f" offset="25%"/>
+      <stop stop-color="#ff9ebb" offset="50%"/>
+      <stop stop-color="#ff007f" offset="75%"/>
+      <stop stop-color="#7b2cbf" offset="100%"/>
+      <animate attributeName="x1" from="-100%" to="100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="0%" to="200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- 4. CSS 动画定义 -->
+    <style>
+      /* 顶部问候语星星闪烁 */
+      @keyframes sparkle-pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.3; transform: scale(0.8); }
+      }
+      .sparkle {
+        animation: sparkle-pulse 2s infinite ease-in-out;
+        transform-origin: center;
+      }
+
+      /* 霓虹发光呼吸感 */
+      @keyframes neon-glow {
+        0%, 100% { filter: drop-shadow(0px 0px 4px #FF007F); }
+        50% { filter: drop-shadow(0px 0px 10px #9D4EDD); }
+      }
+      .glow-effect {
+        animation: neon-glow 3s infinite alternate;
+      }
+
+      /* 底部 ONLINE 绿点呼吸动画 */
+      @keyframes status-blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      .status-dot {
+        animation: status-blink 1.5s infinite;
+      }
+    </style>
   </defs>
 
-  <!-- 图层 1：背景大图（更换 href 即可换背景） -->
+  <!-- 图层 1：背景大图（可按需更换图片 URL 或本地相对路径） -->
   <image 
     href="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" 
     width="800" 
@@ -21,29 +63,39 @@
     preserveAspectRatio="xMidYMid slice" 
   />
 
-  <!-- 图层 2：暗色叠加遮罩 -->
+  <!-- 图层 2：暗色半透明叠加层 -->
   <rect width="800" height="320" fill="url(#bg-overlay)" rx="12" />
 
-  <!-- 图层 3：发光外框 -->
-  <rect x="1" y="1" width="798" height="318" rx="12" stroke="url(#cyber-border)" stroke-width="2" fill="none" />
+  <!-- 图层 3：带发光动画的霓虹外框 -->
+  <rect class="glow-effect" x="1" y="1" width="798" height="318" rx="12" stroke="url(#cyber-border)" stroke-width="2" fill="none" />
 
   <!-- 图层 4：顶部微光问候语 -->
-  <text x="50%" y="45" dominant-baseline="middle" text-anchor="middle" fill="#E0AAFF" font-family="'Courier New', monospace" font-size="14" letter-spacing="2">
-    ✦ Hi ! There is Halfpoint ✦
-  </text>
+  <g transform="translate(400, 42)">
+    <rect x="-130" y="-12" width="260" height="24" rx="4" fill="#110720" fill-opacity="0.75" stroke="#3A1C5C" stroke-width="1" />
+    <text text-anchor="middle" dominant-baseline="middle" fill="#E0AAFF" font-family="'Courier New', monospace" font-size="13">
+      <tspan fill="#FF007F" class="sparkle">✦ </tspan>
+      Hi ! There is Halfpoint
+      <tspan fill="#FF007F" class="sparkle"> ✦</tspan>
+    </text>
+  </g>
 
-  <!-- 图层 5：直接嵌入你原有的 Logo (同目录下的 logo-scan.svg) -->
-  <image 
-    href="logo-scan.svg" 
-    x="100" 
-    y="70" 
-    width="600" 
-    height="160" 
-    preserveAspectRatio="xMidYMid meet" 
-  />
+  <!-- 图层 5：完全融合的 ASCII 动态扫描 Logo（带发光与极佳居中排版） -->
+  <g class="glow-effect" transform="translate(10, 92)">
+    <text font-family="'Courier New', Consolas, monospace" font-size="16" fill="url(#scanline)" xml:space="preserve">
+      <tspan x="0" y="15">██╗  ██╗ █████╗  ██╗     ███████╗██████╗  ██████╗ ██╗███╗   ██╗████████╗</tspan>
+      <tspan x="0" y="35">██║  ██║██╔══██╗ ██║     ██╔════╝██╔══██╗██╔═══██╗██║████╗  ██║╚══██╔══╝</tspan>
+      <tspan x="0" y="55">███████║███████║ ██║     █████╗  ██████╔╝██║   ██║██║██╔██╗ ██║   ██║   </tspan>
+      <tspan x="0" y="75">██╔══██║██╔══██║ ██║     ██╔══╝  ██╔═══╝ ██║   ██║██║██║╚██╗██║   ██║   </tspan>
+      <tspan x="0" y="95">██║  ██║██║  ██║ ███████╗██║     ██║     ╚██████╔╝██║██║ ╚████║   ██║   </tspan>
+      <tspan x="0" y="115">╚═╝  ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝     ╚═╝      ╚═════╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   </tspan>
+    </text>
+  </g>
 
   <!-- 图层 6：底部状态栏 -->
-  <text x="50%" y="275" dominant-baseline="middle" text-anchor="middle" fill="#E0AAFF" font-family="'Courier New', monospace" font-size="13" letter-spacing="1">
-    [ Developer ] :: [ Hard Gamer ] :: [ STATUS: ONLINE ]
-  </text>
+  <g transform="translate(400, 275)">
+    <rect x="-220" y="-14" width="440" height="28" rx="6" fill="#110720" fill-opacity="0.8" stroke="#FF007F" stroke-opacity="0.4" stroke-width="1" />
+    <text text-anchor="middle" dominant-baseline="middle" fill="#E0AAFF" font-family="'Courier New', monospace" font-size="12" letter-spacing="1">
+      [ Developer ] :: [ Hard Gamer ] :: [ STATUS: <tspan fill="#00FF66" class="status-dot">●</tspan> ONLINE ]
+    </text>
+  </g>
 </svg>
